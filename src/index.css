@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cont{
+ 
+  padding: 1px !important;
+  margin-top: 8px;
+}
+.icon{
+  
+padding-right: 6px;
+}
+.connectionbtn{
+  border-radius: 4px !important;
+  padding-top: 4px !important;
+}
+.nav-end{
+  align-items: center;
+}
+.box-icon-classic:hover {
+
+  transition-delay: .1s;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 17%);
+}
+.box-icon-classic:hover::before{
+  border-width: 0px;
+}
+.box-icon-classic{
+   position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 18px;
+    min-height: 100%;
+    background: #ffffff;
+    transition: all .2s ease;
+    z-index: 1;
+}
+.box-icon-classic::before {
+  position: absolute;
+  content: '';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 8px solid #f4f4f4;
+  transition: all .2s ease;
+  z-index: -1;
+}
+
+.box-icon-classic-text{
+  text-align: left !important;
+}
+
+.box-icon-classic-title {
+  font-weight: 500;
+  text-align: left !important;
+}
+
+.imge{
+  height: 100px;
+  width: 100px;
+}
+
+.unit {
+  display: flex;
+  flex: 0 1 100%;
+  margin-bottom: -30px;
+  margin-left: -20px;
+}
+.unit > * {
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+a{
+  text-decoration: none !important;
+}
+
+.service{
+  margin-top: 20px !important;
+  
+}
+.head{
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+.imgewifi{
+  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+}
+.imgewhead{
+  margin-top: 20px;
+  height: 80px;
+  width: 80px;
+}
+/* This is a Sepacilits component CSS */
